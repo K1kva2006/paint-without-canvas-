@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Paint</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id="menu">
+            <div class="create-remove-wrapper">
+                <button id="figureMode">figure mode</button>
+                <h3 id="createFigureActive" class="none">Activated</h3>
+            </div>
+
+            <div id="fig-div">
+                <input
+                    id="figureWidth"
+                    type="number"
+                    placeholder="figure width"
+                />
+                <input
+                    id="figureHeight"
+                    type="number"
+                    placeholder="figure height"
+                />
+                <input
+                    id="figureBorder"
+                    type="number"
+                    placeholder="figure border"
+                />
+                <input id="figureColor" type="color" />
+            </div>
+            <div class="paint-mode-wrapper">
+                <button id="paintMode">paint mode</button>
+                <h3 id="paintModeActive" class="none">Activated</h3>
+            </div>
+
+            <div class="paintMenu">
+                <label for="paintSize">size: </label>
+                <input id="paintSize" type="range" name="paintSize" />
+                <input id="paintColor" type="color" />
+            </div>
+            <div class="paintMenu">
+                <button id="deleteFigureMode">delete mode</button>
+                <h3 id="deleteFigureModeActive" class="none">Activated</h3>
+            </div>
+        </div>
+    </body>
+</html>

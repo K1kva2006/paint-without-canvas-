@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background-color: rgb(169, 251, 251);
+}
+input {
+    padding: 4px;
+    background-color: rgb(215, 215, 215);
+}
+button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(217, 214, 214);
+}
+h3 {
+    font-size: 12px;
+}
+#menu {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(90, 178, 106);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    z-index: 5;
+}
+.create-remove-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#figureMode {
+    cursor: pointer;
+}
+.paint-mode-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#fig-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.paintMenu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.none {
+    display: none;
+}
+.acitve {
+    display: inline-block;
+}
